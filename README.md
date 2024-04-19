@@ -444,12 +444,12 @@ What can be inserted in the above code so that it will compile and run without a
 
 The are 3 correct answers
 
-double d = 0b10_000D;
-[x]long x = 0b10000L;
-float x = 0b20_000;
-float x = 0b10_000f;
-[x]double x = 0xb10_000;
-[x]float x = 0b10_000;
+- double d = 0b10_000D;
+- [x]long x = 0b10000L;
+- float x = 0b20_000;
+- float x = 0b10_000f;
+- [x]double x = 0xb10_000;
+- [x]float x = 0b10_000;
 
 
 
@@ -484,11 +484,11 @@ ________________________________________________-
 The default value assigned to a double data type in Java?
 The are 1 correct answers
 
-null
-undefined
-none of these
-Zero
-0.0f
+- null
+- undefined
+- none of these
+- Zero
+- - 0.0f
 [x]0.0d
 
 __________________
@@ -515,11 +515,11 @@ public class Main {
 }
 
 
-[x]1
-TRUE
-4
-5
-Zero
+- [x]1
+- TRUE
+- 4
+- 5
+- Zero
 
 
 - 24. 
@@ -527,12 +527,12 @@ Zero
 Which of the following are primitive data types in JAVA?
 The are 1 correct answers
 
-[x]All of these
-None of these
-boolean
-char
-short
-long
+- [x]All of these
+- None of these
+- boolean
+- char
+- short
+- long
 
 - 25. 
 
@@ -541,11 +541,11 @@ The are 1 correct answers
 
 
 
-[x]null
-none
-undefined
-NaN
-Zero
+- [x]null
+- none
+- undefined
+- NaN
+- Zero
 
 
 - 26. 
@@ -579,24 +579,24 @@ What of the following statements are incorrect?
 
 The are 1 correct answers
 
-1 and 3
-Only 1
-1 and 2
-[x]Only 2
-2 and 3
-Only 3
+- 1 and 3
+- Only 1
+- 1 and 2
+- [x]Only 2
+- 2 and 3
+- Only 3
 
 - 28. 
 
 Which of the following is an invalid code snippet?
 The are 1 correct answers
 
-[x]long a, short b;
-int s=10; double m = 50;
-All are invalid
-short c, d;
-All are valid
-float u = 5, v = 7.5F;
+- [x]long a, short b;
+- int s=10; double m = 50;
+- All are invalid
+- short c, d;
+- All are valid
+- float u = 5, v = 7.5F;
 
 - 29. 
 
@@ -611,12 +611,12 @@ Yes
 What are the different types of typecasting available in Java?
 The are 2 correct answers
 
-linear
-unordered
-binary
-[x]implicit
-ordered
-[x]explicit
+- linear
+- unordered
+- binary
+- [x]implicit
+- ordered
+- [x]explicit
 
 - 31. 
 What is the output of the following program?
@@ -633,12 +633,12 @@ public class Main {
 
 The are 1 correct answers
 
-[x]50.5
-20
-20.5
-Compile time error
-50
-51
+- [x]50.5
+- 20
+- 20.5
+- Compile time error
+- 50
+- 51
 
 - 32. 
 
@@ -660,11 +660,11 @@ public class Main {
 
 }
 
-72
-hi
-72105
-hI
-[x]Hi
+- 72
+- hi
+- 72105
+- hI
+- [x]Hi
 
 
 - 33. 
@@ -676,12 +676,12 @@ Which statements are true, false, or cannot predict?
 
 The are 1 correct answers
 
-none of them are true
-Only 1 is true
-[x]Both are true
-Only 2 is true
-1 cannot predict, 2 is false
-1 is false, 2 cannot predict
+- none of them are true
+- Only 1 is true
+- [x]Both are true
+- Only 2 is true
+- 1 cannot predict, 2 is false
+- 1 is false, 2 cannot predict
 
 - 34. 
 
@@ -718,18 +718,18 @@ package com.company;
 public class Main {
     public static void main(String[] args) {
         int b = 5;
-        final int a = --b + b--;  // Decrement b, use it, then decrement b again after use
+        final int a = --b + b--;  
         b--;  // Decrement b one more time
-        System.out.print(a);  // Print the value of a
+        System.out.print(a); 
     }
 }
 
 - [x] 8
-6
-2
-5
-Zero
-7
+- 6
+- 2
+- 5
+- Zero
+- 7
 
 - 37. 
 
